@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl"?>
+<!-- Generated using X-Studio -->
+<script>
+	<name>al.plugin.tero.fws</name>
+	<version>2</version>
+	<engineversion>50</engineversion>
+	<description>Friendlier War Sectors AL hook</description>
+	<arguments />
+	<sourcetext>
+		<line linenr="001" indent="">
+			<comment>* Friendlier War Sectors</comment>
+		</line>
+		<line linenr="002" indent="">
+			<comment>* hook for AL setting</comment>
+		</line>
+		<line linenr="003" indent="">
+			<text>al</text>
+			<text> </text>
+			<text>engine</text>
+			<text>:</text>
+			<text> </text>
+			<text>register</text>
+			<text> </text>
+			<text>script</text>
+			<text>=</text>
+			<call>al.tero.fws</call>
+		</line>
+		<line linenr="004" indent="">
+			<text>return</text>
+			<text> </text>
+			<var>null</var>
+		</line>
+		<line linenr="005" indent="" />
+		<line linenr="006" indent="" />
+	</sourcetext>
+	<codearray>
+		<sval type="array" size="10">
+			<sval type="string" val="al.plugin.tero.fws" />
+			<sval type="int" val="50" />
+			<sval type="string" val="Friendlier War Sectors AL hook" />
+			<sval type="int" val="2" />
+			<sval type="int" val="0" />
+			<sval type="int" val="0" />
+			<sval type="array" size="2">
+				<sval type="array" size="2">
+					<sval type="int" val="1000" />
+					<sval type="string" val="al.tero.fws" />
+				</sval>
+				<sval type="array" size="3">
+					<sval type="int" val="103" />
+					<sval type="int" val="0" />
+					<sval type="int" val="0" />
+				</sval>
+			</sval>
+			<sval type="int" val="0" />
+			<sval type="array" size="4">
+				<sval type="array" size="3">
+					<sval type="int" val="0" />
+					<sval type="int" val="1" />
+					<sval type="string" val="Friendlier War Sectors" />
+				</sval>
+				<sval type="array" size="3">
+					<sval type="int" val="0" />
+					<sval type="int" val="1" />
+					<sval type="string" val="hook for AL setting" />
+				</sval>
+				<sval type="array" size="2">
+					<sval type="int" val="2" />
+					<sval type="int" val="2" />
+				</sval>
+				<sval type="array" size="2">
+					<sval type="int" val="2" />
+					<sval type="int" val="2" />
+				</sval>
+			</sval>
+			<sval type="int" val="0" />
+		</sval>
+	</codearray>
+</script>
