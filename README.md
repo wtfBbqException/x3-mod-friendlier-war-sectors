@@ -6,8 +6,6 @@ Normally, as soon as you leave a war sector, Terran and Argon forces will make a
 
 With this mod, your assets are safe as long as you maintain a positive standing with both factions.
 
----
-
 ## Gameplay Changes
 
 Once installed, your assets will only be attacked if your standing with either the Terrans or Argons is negative.
@@ -20,27 +18,21 @@ Once installed, your assets will only be attacked if your standing with either t
 You can toggle between **vanilla aggression** and **modded friendliness** via:
 > **Options → Gameplay → Artificial Life → Friendlier War Sectors**
 
----
-
 ## Installation
 
 (Optional) Back up the original file:
 - `<x3base>/addon/scripts/!fight.war.protectsector.pck`
 
 Then:
-- Extract all files from the archive
-- Copy them into your `<x3base>/addon/scripts/` folder
+- Extract the archive
+- Copy the files **inside** the fws-v10 folder into your `<x3base>/addon/scripts/` folder
 - Overwrite when prompted
-
----
 
 ## Update
 
 Same process as installation:
 - Copy files into the scripts folder
 - Overwrite when asked
-
----
 
 ## Uninstallation
 
@@ -54,6 +46,8 @@ To fully remove:
 **Note:** A complete purge requires a new save or manual version reset in the Script Editor.
 
 ---
+
+This mod lives at github: [https://github.com/wtfBbqException/x3-mod-friendlier-war-sectors](https://github.com/wtfBbqException/x3-mod-friendlier-war-sectors)
 
 ## License
 
